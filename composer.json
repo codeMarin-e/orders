@@ -1,0 +1,35 @@
+{
+    "name": "marinar/orders",
+    "description": "Orders modulе",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\Orders\\": "src/"
+        }
+    },
+    "require": {
+        "marinar/marinar": "*",
+        "marinar/users": "*",
+        "marinar/settings_orders": "*",
+        "marinar/addressable": "*",
+        "marinar/discountable": "*",
+        "marinar/products": "*",
+        "marinar/products_sizes": "*",
+        "marinar/deliveries": "*",
+        "marinar/payments": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": true,
+            "plugin": false,
+            "addon_to": false
+        }
+    }
+}

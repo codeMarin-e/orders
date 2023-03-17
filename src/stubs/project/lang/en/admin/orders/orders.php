@@ -1,0 +1,30 @@
+<?php
+return \Illuminate\Support\Arr::undot([
+    'sidebar' => 'Orders',
+    'orders' => 'Orders',
+    'search' => 'Search',
+    'statuses.all' => 'All',
+    'statuses.new' => 'New',
+    'statuses.processing' => 'Processing',
+    'statuses.confirmed' => 'Confirmed',
+    'statuses.canceled' => 'Canceled',
+    'statuses.reserved' => 'Reserved',
+    'from_date' => 'From',
+    'to_date' => 'To',
+    'xlsx' => 'XLSX',
+    'id' => 'ID',
+    'order_id' => 'Ref.',
+    'user' => 'User',
+    'payment' => 'Payment',
+    'delivery' => 'Delivery',
+    'confirmed_at' => 'Confirmed',
+    'status' => 'Status',
+    'total' => 'Total',
+    'functions' => 'Functions',
+    'no_orders' => 'There is no orders',
+    'edit' => 'Edit',
+    'remove' => 'Remove',
+    'remove_ask' => 'Are you sure?',
+
+    //@HOOK_LANG
+]);
