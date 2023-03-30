@@ -16,6 +16,7 @@ use App\Models\User;
 use App\Models\Address;
 use App\Models\Cart;
 use App\Http\Requests\OrderRequest;
+use Illuminate\Http\Request;
 
 class OrderController extends Controller {
     public static $toExcellExport;
